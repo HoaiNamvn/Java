@@ -1,0 +1,22 @@
+SMAP
+JdbcFruitTable_jsp.java
+JSP
+*S JSP
+*F
++ 0 JdbcFruitTable.jsp
+JdbcFruitTable.jsp
+*L
+5,5:56
+11,9:13
+19,14:60
+34,14:75
+47,2:89
+49:91,2
+50:93,3
+51:96,2
+52:98,3
+53:101,2
+54:103,3
+55,13:106
+67,6:119
+*E

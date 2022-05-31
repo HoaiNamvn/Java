@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+
+<HTML>
+  <HEAD>
+    <TITLE>フォームからのいろいろな入力</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </HEAD>
+  <BODY>
+  <FORM method=POST action='FormParam'>
+    <TABLE>
+    <TR><TH>テキスト</TH><TD><INPUT type=TEXT name='text' value=''></TD></TR>
+    <TR><TH>パスワード</TH><TD><INPUT type=PASSWORD name='password' value=''></TD></TR>
+    <TR><TH>非表示テキスト</TH><TD><INPUT type=HIDDEN name='hidden' value='hiddenの値'></TD></TR>
+    <TR><TH>テキストエリア</TH><TD><TEXTAREA name='textarea'></TEXTAREA></TD></TR>
+    <TR><TH>ラジオボタン</TH><TD>
+      <INPUT type=RADIO name='radio' value='radio1'>ラジオボタン1</TD><TD>
+      <INPUT type=RADIO name='radio' value='radio2'>ラジオボタン2</TD></TR>
+    <TR><TH>チェックボックス</TH><TD>
+      <INPUT type=CHECKBOX name='checkbox' value='checkbox1'>チェックボックス1</TD><TD>
+      <INPUT type=CHECKBOX name='checkbox' value='checkbox2'>チェックボックス2</TD><TD>
+      <INPUT type=CHECKBOX name='checkbox' value='checkbox3'>チェックボックス3</TD></TR>
+    <TR><TH>コンボボックス</TH><TD>
+      <SELECT name='combobox'>
+        <OPTION value='combo1' selected>コンボボックス1</OPTION>
+        <OPTION value='combo2' >コンボボックス2</OPTION>
+        <OPTION value='combo3' >コンボボックス3</OPTION>
+      </SELECT></TD></TR>
+    <TR><TH>リストボックス</TH><TD>
+      <SELECT name='listbox' size='3'
+        <OPTION value='list1' selected>リストボックス1</OPTION>
+        <OPTION value='list2'>リストボックス2</OPTION>
+        <OPTION value='list3'>リストボックス3</OPTION></TD>
+      </SELECT></TR>
+    <TR><TH>複数選択リストボックス</TH><TD>
+      <SELECT name='multilist' size='3' multiple
+        <OPTION value='multilist1' selected>複数選択リストボックス1</OPTION>
+        <OPTION value='multilist2'>複数選択リストボックス2</OPTION>
+        <OPTION value='multilist3' selected>複数選択リストボックス3</OPTION></TD>
+      </SELECT></TR>
+    <TR><TH>コマンドボタン</TH><TD><INPUT type=SUBMIT name='submit' value='送信'></TD></TR>
+    <TR><TH>リセットボタン</TH><TD><INPUT   type=RESET name='reset' value='リセット'></TD></TR>
+
+  </TABLE>
+  </FORM>
+  </BODY>
+</HTML>
